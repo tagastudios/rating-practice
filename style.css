@@ -1,0 +1,79 @@
+.bg {
+  background-color: aquamarine;
+}
+.box {
+  background-color: teal;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: calc(50vh - 225px);
+  border-radius: 20px;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+.circle {
+  background-color: darkslategrey;
+  width: 15px;
+  padding: 0.5rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 0;
+}
+p {
+  color: rgb(230, 230, 230);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin-bottom: 3rem;
+}
+.numbers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + label {
+  background-color: rgb(156, 156, 156);
+}
+label {
+  background-color: darkslategrey;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  text-align: center;
+  padding: 1rem;
+  color: rgb(230, 230, 230);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+label:hover {
+  background-color: rgb(196, 115, 2);
+  transition: all 200ms ease-in-out;
+}
+button {
+  color: rgb(230, 230, 230);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  background-color: rgb(196, 115, 2);
+  width: 100%;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  background-color: rgb(230, 230, 230);
+  color: rgb(196, 115, 2);
+}
+label,
+button {
+  cursor: pointer;
+}
